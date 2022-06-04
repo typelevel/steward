@@ -5,7 +5,6 @@
 - typelevel/cats-effect-cps
 - typelevel/cats-effect-testing:series/0.x
 - typelevel/cats-effect-testing:series/1.x
-- typelevel/cats-effect:series/2.x
 - typelevel/cats-effect:series/3.x
 - typelevel/cats-mtl
 - typelevel/cats-parse
