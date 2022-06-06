@@ -33,6 +33,7 @@
 - typelevel/monoids
 - typelevel/mouse
 - typelevel/munit-cats-effect
+- typelevel/otel4s
 - typelevel/paiges
 - typelevel/sbt-typelevel
 - typelevel/scalacheck
