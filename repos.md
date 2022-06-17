@@ -38,6 +38,7 @@
 - typelevel/sbt-typelevel
 - typelevel/scalacheck
 - typelevel/scalacheck-effect
+- typelevel/scalacheck-xml
 - typelevel/shapeless-3
 - typelevel/simulacrum-scalafix
 - typelevel/spire
