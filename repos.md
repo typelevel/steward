@@ -42,6 +42,6 @@
 - typelevel/simulacrum-scalafix
 - typelevel/spire
 - typelevel/squants
-- typelevel/typelevel.g8
 - typelevel/typelevel-scalafix
+- typelevel/typelevel.g8
 - typelevel/vault
