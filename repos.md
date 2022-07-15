@@ -1,5 +1,6 @@
 - typelevel/bobcats
 - typelevel/case-insensitive
+- typelevel/catbird
 - typelevel/cats
 - typelevel/cats-collections
 - typelevel/cats-effect-cps
