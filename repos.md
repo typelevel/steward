@@ -35,6 +35,7 @@
 - typelevel/munit-cats-effect
 - typelevel/otel4s
 - typelevel/paiges
+- typelevel/sbt-tpolecat
 - typelevel/sbt-typelevel
 - typelevel/scalacheck
 - typelevel/scalacheck-effect
