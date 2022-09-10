@@ -24,6 +24,7 @@
 - typelevel/fs2
 - typelevel/fs2-grpc
 - typelevel/fs2-netty
+- typelevel/idna4s
 - typelevel/jawn
 - typelevel/jawn-fs2
 - typelevel/jdk-index
