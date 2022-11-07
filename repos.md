@@ -39,6 +39,7 @@
 - typelevel/paiges
 - typelevel/sbt-tpolecat
 - typelevel/sbt-typelevel
+- typelevel/scalac-compat
 - typelevel/scalac-options
 - typelevel/scalacheck
 - typelevel/scalacheck-effect
