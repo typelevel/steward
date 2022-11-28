@@ -1,0 +1,52 @@
+name: Typelevel Flake Steward
+
+on:
+  schedule:
+    - cron: '45 7 * * 2'
+  workflow_dispatch:
+
+jobs:
+  lockfile:
+    strategy:
+      matrix:
+        repo:
+          - typelevel/case-insensitive
+          - typelevel/fs2
+          - typelevel/kind-projector
+          - typelevel/otel4s
+          - typelevel/scalac-options
+          - typelevel/scalacheck-xml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: ${{ matrix.repo }}
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate token
+        id: generate-token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: 207424
+          private_key: ${{ secrets.STEWARD_PRIVATE_KEY }}
+
+      - name: Update flake.lock
+        uses: DeterminateSystems/update-flake-lock@v15
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
+          branch: update/flake-lock
+          git-author-email: 106827141+typelevel-steward[bot]@users.noreply.github.com
+          git-author-name: typelevel-steward[bot]
+          git-committer-email: 106827141+typelevel-steward[bot]@users.noreply.github.com
+          git-committer-name: typelevel-steward[bot]
+          pr-body: |
+            Automated changes by the [update-flake-lock](https://github.com/DeterminateSystems/update-flake-lock) GitHub Action.
+
+            ```
+            {{ env.GIT_COMMIT_MESSAGE }}
+            ```
