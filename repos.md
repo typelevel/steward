@@ -32,6 +32,7 @@
 - typelevel/kittens
 - typelevel/literally
 - typelevel/log4cats
+- typelevel/log4cats-natchez
 - typelevel/monoids
 - typelevel/mouse
 - typelevel/munit-cats-effect
