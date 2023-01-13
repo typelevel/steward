@@ -19,6 +19,7 @@
 - typelevel/discipline-specs2:series/2.x
 - typelevel/feral
 - typelevel/frameless
+- typelevel/fs2
 - typelevel/fs2-grpc
 - typelevel/fs2-netty
 - typelevel/idna4s
