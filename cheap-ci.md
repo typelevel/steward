@@ -6,7 +6,6 @@
 - typelevel/cats-effect-cps
 - typelevel/cats-effect-testing:series/0.x
 - typelevel/cats-effect-testing:series/1.x
-- typelevel/cats-effect:series/3.x
 - typelevel/cats-mtl
 - typelevel/cats-parse
 - typelevel/cats-tagless
@@ -21,7 +20,6 @@
 - typelevel/discipline-specs2:series/2.x
 - typelevel/feral
 - typelevel/frameless
-- typelevel/fs2
 - typelevel/fs2-grpc
 - typelevel/fs2-netty
 - typelevel/idna4s
