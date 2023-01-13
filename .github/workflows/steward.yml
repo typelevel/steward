@@ -3,14 +3,14 @@ name: Typelevel Steward
 on:
   schedule:
     - cron: '*/20 3-23 * * *'
-    - cron: '*/20 0-2  * * *'
+    - cron: '*/30 0-2  * * *'
   workflow_dispatch:
 
 jobs:
   steward-cheap:
     runs-on: ubuntu-latest
     name: Typelevel Steward
-    if: github.event.schedule != '*/20 0-2  * * *'
+    if: github.event.schedule != '*/30 0-2  * * *'
     steps:
       - uses: actions/checkout@v3
 
