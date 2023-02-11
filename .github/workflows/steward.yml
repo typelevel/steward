@@ -2,18 +2,16 @@ name: Typelevel Steward
 
 on:
   schedule:
-    - cron: '*/20 6-2 * * *'
-    - cron: '*/30 3-5 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
-  steward-cheap:
+  steward:
     runs-on: ubuntu-latest
     name: Typelevel Steward
-    if: github.event.schedule != '*/30 3-5 * * *'
     steps:
       - uses: actions/checkout@v3
-
+          
       - name: Generate token
         id: generate-token
         uses: tibdex/github-app-token@v1
@@ -25,27 +23,6 @@ jobs:
         uses: scala-steward-org/scala-steward-action@v2
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
-          repos-file: 'cheap-ci.md'
-          author-email: 106827141+typelevel-steward[bot]@users.noreply.github.com
-          author-name: typelevel-steward[bot]
-  steward-expensive:
-    runs-on: ubuntu-latest
-    name: Typelevel Steward
-    if: github.event.schedule != '*/20 6-2 * * *'
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate token
-        id: generate-token
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: 207424
-          private_key: ${{ secrets.STEWARD_PRIVATE_KEY }}
-
-      - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@v2
-        with:
-          github-token: ${{ steps.generate-token.outputs.token }}
-          repos-file: 'expensive-ci.md'
+          repos-file: 'repos.md'
           author-email: 106827141+typelevel-steward[bot]@users.noreply.github.com
           author-name: typelevel-steward[bot]

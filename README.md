@@ -4,7 +4,4 @@ Runs the [scala-steward-action](https://github.com/scala-steward-org/scala-stewa
 
 ## Adding a repo
 
-- Repositories with less than 20 parallel jobs that take less than 20 minutes each should be added to `cheap-ci.md`
-- Repositories with more than 20 parallel jobs or jobs that take more than 20 minutes should be added to `expensive-ci.md`
-
-This action uses a GitHub token for the Typelevel installation of typelevel-steward and will only work on projects in the Typelevel org.  For external projects, see [diy-steward](https://github.com/armanbilge/diy-steward/).
+Edit the [repos.md](https://github.com/typelevel/steward/edit/main/repos.md) file.  This action uses a GitHub token for the Typelevel installation of typelevel-steward and will only work on projects in the Typelevel org.  For external projects, see [diy-steward](https://github.com/armanbilge/diy-steward/).
