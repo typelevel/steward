@@ -19,6 +19,10 @@ jobs:
           app_id: 207424
           private_key: ${{ secrets.STEWARD_PRIVATE_KEY }}
 
+      - uses: coursier/cache-action@v6
+    
+      - uses: VirtusLab/scala-cli-setup@main
+
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
