@@ -1,10 +1,12 @@
 - typelevel/bobcats
 - typelevel/case-insensitive
 - typelevel/catbird
+- typelevel/cats
 - typelevel/cats-collections
 - typelevel/cats-effect-cps
 - typelevel/cats-effect-testing:series/0.x
 - typelevel/cats-effect-testing:series/1.x
+- typelevel/cats-effect:series/3.x
 - typelevel/cats-mtl
 - typelevel/cats-parse
 - typelevel/cats-tagless
