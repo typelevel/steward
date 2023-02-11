@@ -2,7 +2,7 @@ name: Typelevel Steward
 
 on:
   schedule:
-    - cron: '*/20 0-2,6-23 * * *'
+    - cron: '*/20 6-2 * * *'
     - cron: '*/30 3-5 * * *'
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
   steward-expensive:
     runs-on: ubuntu-latest
     name: Typelevel Steward
-    if: github.event.schedule != '*/20 0-2,6-23 * * *'
+    if: github.event.schedule != '*/20 6-2 * * *'
     steps:
       - uses: actions/checkout@v3
 
