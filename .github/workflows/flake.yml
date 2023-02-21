@@ -11,6 +11,7 @@ jobs:
       matrix:
         repo:
           - typelevel/case-insensitive
+          - typelevel/cats-effect
           - typelevel/fs2
           - typelevel/kind-projector
           - typelevel/otel4s
