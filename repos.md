@@ -37,6 +37,7 @@
 - typelevel/monoids
 - typelevel/mouse
 - typelevel/munit-cats-effect
+- typelevel/natchez
 - typelevel/otel4s
 - typelevel/paiges
 - typelevel/sbt-tpolecat
@@ -47,6 +48,7 @@
 - typelevel/scalacheck-effect
 - typelevel/scalacheck-xml
 - typelevel/shapeless-3
+- typelevel/skunk
 - typelevel/simulacrum-scalafix
 - typelevel/spire
 - typelevel/squants
