@@ -31,7 +31,7 @@
 - typelevel/jdk-index
 - typelevel/keypool
 - typelevel/kittens
-- typelevel/Laika
+- typelevel/Laika:0.19.x
 - typelevel/literally
 - typelevel/log4cats
 - typelevel/log4cats-natchez
