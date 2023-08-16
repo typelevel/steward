@@ -49,7 +49,7 @@
 - typelevel/scalacheck-effect
 - typelevel/scalacheck-xml
 - typelevel/shapeless-3
-- typelevel/skunk
+- typelevel/skunk:series/0.6.x
 - typelevel/simulacrum-scalafix
 - typelevel/spire
 - typelevel/squants
