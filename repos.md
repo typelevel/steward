@@ -58,4 +58,3 @@
 - typelevel/typelevel-scalafix
 - typelevel/typelevel.g8
 - typelevel/vault
-- typelevel/literally
