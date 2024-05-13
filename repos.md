@@ -55,6 +55,7 @@
 - typelevel/spire
 - typelevel/squants
 - typelevel/toolkit
+- typelevel/twiddles
 - typelevel/typelevel-scalafix
 - typelevel/typelevel.g8
 - typelevel/vault
