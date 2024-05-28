@@ -2,7 +2,7 @@ name: Typelevel Flake Steward
 
 on:
   schedule:
-    - cron: '45 7 * * 2'
+    - cron: '45 7 28 * *'
   workflow_dispatch:
 
 jobs:
