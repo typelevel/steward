@@ -40,6 +40,7 @@
 - typelevel/mouse
 - typelevel/munit-cats-effect
 - typelevel/natchez
+- typelevel/natchez-http4s
 - typelevel/otel4s
 - typelevel/paiges
 - typelevel/sbt-tpolecat
