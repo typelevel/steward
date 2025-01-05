@@ -9,7 +9,7 @@ concurrency: steward
 
 jobs:
   steward:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: Typelevel Steward
     steps:
       - uses: sbt/setup-sbt@v1
