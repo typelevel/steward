@@ -13,6 +13,7 @@
 - typelevel/cats-tagless
 - typelevel/cats-testkit-scalatest
 - typelevel/cats-time
+- typelevel/catscript
 - typelevel/ce3.g8
 - typelevel/coop
 - typelevel/discipline
@@ -61,4 +62,3 @@
 - typelevel/typelevel.g8
 - typelevel/vault
 - typelevel/weaver-test
-- typelevel/catscript
