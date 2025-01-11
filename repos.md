@@ -61,3 +61,4 @@
 - typelevel/typelevel.g8
 - typelevel/vault
 - typelevel/weaver-test
+- typelevel/catscript
