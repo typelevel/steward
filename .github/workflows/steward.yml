@@ -30,3 +30,4 @@ jobs:
           repos-file: 'repos.md'
           author-email: 106827141+typelevel-steward[bot]@users.noreply.github.com
           author-name: typelevel-steward[bot]
+          ignore-opts-files: false
