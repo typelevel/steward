@@ -17,6 +17,7 @@ jobs:
           - typelevel/otel4s
           - typelevel/scalac-options
           - typelevel/scalacheck-xml
+          - typelevel/typelevel.github.com
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
