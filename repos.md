@@ -44,6 +44,7 @@
 - typelevel/natchez-http4s
 - typelevel/otel4s
 - typelevel/otel4s-experimental
+- typelevel/otel4s-sdk
 - typelevel/paiges
 - typelevel/sbt-tpolecat
 - typelevel/sbt-typelevel
