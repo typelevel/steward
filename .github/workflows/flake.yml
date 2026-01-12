@@ -35,6 +35,7 @@ jobs:
         with:
           app-id: 207424
           private-key: ${{ secrets.STEWARD_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
 
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@v28
