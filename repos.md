@@ -62,5 +62,6 @@
 - typelevel/twiddles
 - typelevel/typelevel-scalafix
 - typelevel/typelevel.g8
+- typelevel/typelevel.github.com
 - typelevel/vault
 - typelevel/weaver-test
