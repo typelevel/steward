@@ -21,6 +21,7 @@
 - typelevel/discipline-scalatest
 - typelevel/discipline-specs2
 - typelevel/discipline-specs2:series/2.x
+- typelevel/doobie
 - typelevel/feral
 - typelevel/frameless
 - typelevel/fs2
