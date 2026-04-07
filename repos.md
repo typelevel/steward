@@ -26,6 +26,7 @@
 - typelevel/frameless
 - typelevel/fs2
 - typelevel/fs2-grpc
+- typelevel/fs2-kafka
 - typelevel/fs2-netty
 - typelevel/grackle
 - typelevel/idna4s
@@ -65,4 +66,5 @@
 - typelevel/typelevel.g8
 - typelevel/typelevel.github.com
 - typelevel/vault
+- typelevel/vulcan
 - typelevel/weaver-test
