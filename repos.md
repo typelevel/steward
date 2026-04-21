@@ -48,6 +48,7 @@
 - typelevel/otel4s-experimental
 - typelevel/otel4s-sdk
 - typelevel/paiges
+- typelevel/saslprep
 - typelevel/sbt-tpolecat
 - typelevel/sbt-typelevel
 - typelevel/scalac-compat
