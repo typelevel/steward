@@ -13,7 +13,6 @@
 - typelevel/cats-tagless
 - typelevel/cats-testkit-scalatest
 - typelevel/cats-time
-- typelevel/catscript
 - typelevel/ce3.g8
 - typelevel/coop
 - typelevel/discipline
@@ -28,6 +27,7 @@
 - typelevel/fs2-grpc
 - typelevel/fs2-kafka
 - typelevel/fs2-netty
+- typelevel/GatOS
 - typelevel/grackle
 - typelevel/idna4s
 - typelevel/jawn
