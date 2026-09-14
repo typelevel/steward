@@ -38,7 +38,7 @@ jobs:
           owner: ${{ github.repository_owner }}
 
       - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@v28
+        uses: DeterminateSystems/update-flake-lock@v29
         with:
           token: ${{ steps.generate-token.outputs.token }}
           branch: update/flake-lock
