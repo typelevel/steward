@@ -20,7 +20,7 @@ jobs:
         id: generate-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: 207424
+          client-id: 207424
           private-key: ${{ secrets.STEWARD_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
